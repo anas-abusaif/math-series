@@ -21,3 +21,20 @@ def test_sum_series_0():
       expected = 2
       assert actual == expected
 
+
+
+def test_fibonacci_1():
+      actual = fibonacci(1)
+      expected = 1
+      assert actual == expected
+
+
+def test_licas_1():
+      actual = lucas(1)
+      expected = 1
+      assert actual == expected
+
+def test_sum_series_1():
+      actual = lucas(1)
+      expected = 1
+      assert actual == expected
