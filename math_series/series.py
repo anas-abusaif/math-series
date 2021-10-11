@@ -24,6 +24,3 @@ def sum_series(n,p1=0,p2=1):
     else:
         return sum_series(n-1,p1,p2)+sum_series(n-2,p1,p2)
 
-
-
-print(sum_series(2,3,4))
