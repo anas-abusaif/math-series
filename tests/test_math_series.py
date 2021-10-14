@@ -61,5 +61,5 @@ def test_sum_series_2():
 
 def test_sum_series_2_3_4():
       actual = sum_series(2,3,4)
-      expected = 10
+      expected = 7
       assert actual == expected
