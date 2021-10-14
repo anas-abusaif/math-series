@@ -17,7 +17,49 @@ def test_licas_0():
       assert actual == expected
 
 def test_sum_series_0():
-      actual = lucas(2)
+      actual = lucas(0)
       expected = 2
       assert actual == expected
 
+
+
+def test_fibonacci_1():
+      actual = fibonacci(1)
+      expected = 1
+      assert actual == expected
+
+
+def test_licas_1():
+      actual = lucas(1)
+      expected = 1
+      assert actual == expected
+
+def test_sum_series_1():
+      actual = sum_series(1)
+      expected = 1
+      assert actual == expected
+
+
+
+def test_fibonacci_2():
+      actual = fibonacci(2)
+      expected = 1
+      assert actual == expected
+
+
+def test_licas_2():
+      actual = lucas(2)
+      expected = 3
+      assert actual == expected
+
+def test_sum_series_2():
+      actual = sum_series(2)
+      expected = 1
+      assert actual == expected
+
+
+
+def test_sum_series_2_3_4():
+      actual = sum_series(2,3,4)
+      expected = 7
+      assert actual == expected
